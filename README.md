@@ -12,7 +12,7 @@ Indep2DPCAData.csv is the independent data set.
 
 ## Algorithm
 
-Datapre.m is used to use 2DPCA to extract features in PSSM, divide datasets, and normalize data.  
+Datapre.m is used to adopt 2DPCA to extract features in PSSM, divide datasets, and normalize data.  
 Splitdata_AC.m is used to split the training data into several parts(5).   
 HCV_svm_main.m is used to show the result of 5-fold cross-validation by SVM using the parameters obtained after grid search.  
 RotationForest.m is used to show the result of 5-fold cross-validation by RF-PSSM using the parameters obtained after grid search.  
