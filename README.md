@@ -1,6 +1,6 @@
 # RF-PSSM
 
-RF-PSSM is a novel computational method in order to predict HCV-human PPIs from sequence data using evolutionary information extracted from PSSM. In brief, the position specific-iterated BLAST (PSI-BLAST) was used to generate PSSM by searching against the NCBI non-redundant database. Two-dimensional principal component analysis (2DPCA) was then adopted to extract protein evolutionary information from PSSM. RotationForest was finally employed as a classifier. To verify the performance of the RF-PSSM model, we not only used the k-fold cross-validation, but also made comparisons with SVM classifier and other regularly used methods on independent data set. Our results showed that RF-PSSM performed much better than all other methods
+RF-PSSM is a machine learning method for predicting the interactions between HCV and human.
 
 ## Dataset
 Negative dataset and positive dataset are both in xlsx format which includes 477 HCV-human interactions data separately.   
